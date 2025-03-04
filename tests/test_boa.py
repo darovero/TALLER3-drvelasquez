@@ -16,7 +16,7 @@ class TestBoaConstrictor(unittest.TestCase):
 
     def test_comer_raton(self):
         """Prueba que la boa coma ratones con un límite impuesto."""
-        limite_ratones = 10
+        limite_ratones = 20
 
         for _ in range(limite_ratones):
             self.boa.comer_raton()
