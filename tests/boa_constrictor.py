@@ -1,7 +1,7 @@
 from models.animal_exotico import AnimalExotico
 
 class BoaConstrictor(AnimalExotico):
-    LIMITE_RATONES = 5  # Nueva constante de límite
+    LIMITE_RATONES = 5
 
     def __init__(self, nombre: str, peso: float, edad: int, pais_origen: str, impuestos: float):
         super().__init__(nombre, peso, edad, pais_origen, impuestos)
